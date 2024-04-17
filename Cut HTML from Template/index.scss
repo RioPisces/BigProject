@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.startBtn {
+    background: linear-gradient(311.12deg, #b4ec51 0%, #429321 100%);
+    color: white;
+    border-radius: 100px;
+    padding: 10px 30px;
+    margin-bottom: 100px;
+}
+#containter {
+    #header {
+        width: 100%;
+        background-image: url(Image/banner-mobile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 15px;
+        text-align: center;
+        #navbar {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: 0 15px;
+            padding: 40px 15px 0;
+            .about-us {
+                color: black;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .sign {
+                border: 2px solid #8bc34a;
+                color: #8bc34a;
+                margin-left: 40px;
+                padding: 8px 16px;
+                border-radius: 100px;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+        .logo {
+            margin: 140px 0 80px;
+        }
+        .slogan {
+            .emote-slogan {
+                display: flex;
+                text-align: center;
+                font-size: 40px;
+                margin-bottom: 50px;
+            }
+            .better-emote-slogan {
+                flex: 35%;
+            }
+            .faster-emote-slogan {
+                flex: 30%;
+            }
+            .together-emote-slogan {
+                flex: 35%;
+            }
+            .icon-slogan {
+                display: block !important;
+            }
+        }
+        .text-slogan {
+            font-size: 24px;
+            font-style: italic;
+            font-weight: 200;
+            margin-bottom: 40px;
+        }
+    }
+
+    #content {
+    }
+    #footer {
+        background-color: #39474e;
+    }
+}
