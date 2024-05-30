@@ -1,0 +1,41 @@
+#container {
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    .card {
+        border: 1px solid black;
+        width: 320px;
+        height: 400px;
+        position: absolute;
+        margin: 120px 520px;
+        border-radius: 20px;
+        .icon {
+            .icon-heart {
+            }
+            .icon-cart {
+            }
+        }
+        .product {
+            .img-product {
+            }
+            .name-product {
+            }
+            .price-product {
+            }
+        }
+
+        .detail-product {
+            .size-product {
+            }
+            .color-product {
+            }
+        }
+        .act-to-product {
+            .buy-now {
+            }
+            .add-to-cart {
+            }
+        }
+    }
+}
